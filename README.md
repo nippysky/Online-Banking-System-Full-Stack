@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I developed this is Fintech application using [Next.js](https://nextjs.org/). I used Tailwind css for the application styling, MongoDb as a database, Next Auth for user authentication. These are the main frameworks as others are auxillary.
 
 ## Getting Started
 
-First, run the development server:
+First, navigate to the Sign In page from the navabr, and input the following account number and password.
+
+Account Number:
 
 ```bash
-npm run dev
-# or
-yarn dev
+2222222222
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Password:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+demo123
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The account number digits should be 10 in number, just like that of a conventional Nigerian Bank. If you enter the right details, you will be logeed in successfully, else, it will display the login error notification. In any case you have to be patient after filling in the details to be able to log you in successfully.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Play With The Demo Account
 
-## Learn More
+- After you have successfully logged in using the demo details below, you will be presented with the Dashboard.
+- Play around with the dashboard. Here is how to go about it:
 
-To learn more about Next.js, take a look at the following resources:
+Register a new user in the application. Use any details of your choice, but make sure you remember the details as you will use them to log in. Then, login with your new registered user, and utilize the send feature by sending some money to the demo user. Login the demo user account and you will see the money added to the demo user and a transaction records details displayed below. The amount you sent will also be deducted from the sending account.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can create multiple accounts and try this step. Just enjoy your self and give ffedback if you loves this.
