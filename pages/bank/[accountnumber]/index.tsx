@@ -91,40 +91,12 @@ export default function Dashboard() {
                   }`}
                 >
                   <p className="font-medium">
-                    {txn.method === "deposit" ? "+" : "-"}${txn.amount}
+                    {txn.method === "deposit" ? "+" : "-"}NGN{txn.amount}
                   </p>
                 </div>
               </div>
             ))
         )}
-        {/* {person[0]?.transaction
-          ?.slice(0)
-          .reverse()
-          .map((txn) => (
-            <div
-              key={txn._id}
-              className="w-full bg-white shadow-md py-5 px-10 mt-5 flex justify-between items-center"
-            >
-              <div className="w-1/3 flex flex-col gap-3">
-                <p className="font-medium">{txn.date}</p>
-                <p className="font-medium">{txn.time}</p>
-              </div>
-
-              <div className="w-1/3 flex justify-center">
-                <p className="font-medium">{txn.method}</p>
-              </div>
-
-              <div
-                className={`w-1/3 flex justify-end ${
-                  txn.method === "deposit" ? "text-green-600" : "text-red-600"
-                }`}
-              >
-                <p className="font-medium">
-                  {txn.method === "deposit" ? "+" : "-"}${txn.amount}
-                </p>
-              </div>
-            </div>
-          ))} */}
       </section>
     </Layout>
   );
